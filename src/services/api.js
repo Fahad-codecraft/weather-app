@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_KEY = process.env.API_KEY
+const API_KEY = "c214838d9282f1b9b87dca8cedd71a91"
 const WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
 const FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast"
 
