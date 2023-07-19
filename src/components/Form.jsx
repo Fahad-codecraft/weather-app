@@ -14,19 +14,16 @@ const Form = ({ setResult, setForecast, setDayForecast }) => {
   const getWeatherInfo = async () => {
     let response = await getWeather(data.city);
     setResult(response);
-    console.log(response);
   };
 
   const getForecastInfo = async () => {
     let forecastResponse = await getForecast(data.city)
     setForecast(forecastResponse)
-    console.log(forecastResponse)
   }
 
   const getDayForecastInfo = async () => {
     let forecastDayResponse = await getDayForecast(data.city)
     setDayForecast(forecastDayResponse)
-    console.log(forecastDayResponse)
   }
 
   const handleKeyDown = async (e) => {
